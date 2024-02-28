@@ -1,0 +1,51 @@
+/*  
+Student Name: Madison Jenkins
+File name: extend05.css
+Date: 02/26/2024
+*/
+body {
+    background-color: #dde3fd;
+}
+
+#container {
+    padding-bottom: 500px;
+}
+
+.box {
+    border: 1px solid #000;
+    margin: 2%;
+    padding: 2%;
+    background-color: #798ef6;
+    color: #091034;
+    width: 400px;
+    height: 170px;
+}
+
+/* sticky */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+
+/* relative */
+.relative {
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+/* fixed */
+.fixed {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+}
+
+/* absolute */
+.absolute {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+}
