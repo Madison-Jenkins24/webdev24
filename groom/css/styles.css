@@ -1,0 +1,25 @@
+/*
+    Student Name: Madison Jenkins
+    File Name: styles.css
+    Current Date: 01/27/24
+*/
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Responsive images */
+#services ul img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+/* Style for nav */
+nav ul {
+    list-style-type: none;
+}
+
