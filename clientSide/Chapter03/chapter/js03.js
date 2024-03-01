@@ -55,5 +55,5 @@ function showGames() {
     }
 }
 
-window.addEventListener("load", addWeekdays);
+window.addEventListener("load", addWeekDays);
 window.addEventListener("load", showGames);
